@@ -45,7 +45,7 @@
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
-        <rdfs:comment xml:lang="es">Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SSN) con propiedades específicas para la representación de datos relacionados con la calidad del aire.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SSN) con propiedades específicas para la representación de datos relacionados con la calidad del aire</rdfs:comment>
         <dc:identifier>http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire</dc:identifier>
         <owl:versionInfo xml:lang="es">Versión inicial de una ontología para describir datos de calidad del aire en una ciudad</owl:versionInfo>
         <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
