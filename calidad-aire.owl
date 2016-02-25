@@ -291,79 +291,11 @@
         <rdfs:comment xml:lang="es">Velocidad del viento. Se mide en metros por segundo</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda -->
-
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda">
-        <dc:date rdf:datatype="&xsd;dateTime">2014-06-25</dc:date>
-        <dc:title xml:lang="es">Vocabulario para la representación de datos sobre eventos en una agenda cultural</dc:title>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.geonames.org/ontology#A -->
-
-    <owl:NamedIndividual rdf:about="&geonames;A"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#A.ADMD -->
-
-    <owl:NamedIndividual rdf:about="&geonames;A.ADMD"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#P -->
-
-    <owl:NamedIndividual rdf:about="&geonames;P"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#P.PPL -->
-
-    <owl:NamedIndividual rdf:about="&geonames;P.PPL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#P.PPLL -->
-
-    <owl:NamedIndividual rdf:about="&geonames;P.PPLL"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#P.PPLX -->
-
-    <owl:NamedIndividual rdf:about="&geonames;P.PPLX"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T -->
-
-    <owl:NamedIndividual rdf:about="&geonames;T"/>
-    
-
-
-    <!-- http://www.geonames.org/ontology#T.ISL -->
-
-    <owl:NamedIndividual rdf:about="&geonames;T.ISL"/>
-    <rdf:Description>
-        <rdfs:label>RDF</rdfs:label>
-    </rdf:Description>
     <rdf:Description>
         <rdfs:label>HTML</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>RDF</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
