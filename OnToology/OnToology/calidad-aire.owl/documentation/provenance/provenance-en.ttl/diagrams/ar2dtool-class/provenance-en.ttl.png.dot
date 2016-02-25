@@ -1,0 +1,10 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/0.1" -> "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire" [ label = "prov:specializationOf" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/0.1" -> "http://www.essepuntato.it/lode/" [ label = "prov:wasAttributedTo" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/0.1" -> "https://github.com/dgarijo/Widoco/" [ label = "prov:wasAttributedTo" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/0.1" -> "http://linkedin.com/in/ocorcho" [ label = "dc:creator" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/0.1" -> "http://linkedin.com/in/ocorcho" [ label = "prov:wasAttributedTo" ];
+
+}
