@@ -47,7 +47,7 @@
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <rdfs:comment xml:lang="es">Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SSN) con propiedades específicas para la representación de datos relacionados con la calidad del aire</rdfs:comment>
         <dc:identifier>http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire</dc:identifier>
-        <owl:versionInfo xml:lang="es">Versión inicial de una ontología para describir datos de calidad del aire en una ciudad</owl:versionInfo>
+        <owl:versionInfo xml:lang="es">Versión inicial de una ontología para describir datos de calidad del aire en una ciudad.</owl:versionInfo>
         <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <owl:imports rdf:resource="http://purl.oclc.org/NET/ssnx/ssn"/>
         <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.html"/>
