@@ -180,7 +180,7 @@
         <rdfs:label xml:lang="es">Humedad relativa</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Humedad relativa</rdfs:comment>
+        <rdfs:comment xml:lang="es">Humedad relativa, se mide en porcentaje</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -192,7 +192,7 @@
         <rdfs:label xml:lang="es">Monóxido de carbono</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Monóxido de carbono, que se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:comment xml:lang="es">Monóxido de carbono, que se mide en miligramos por metro cúbico</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -228,7 +228,7 @@
         <rdfs:label xml:lang="es">Precipitación</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Precipitación</rdfs:comment>
+        <rdfs:comment xml:lang="es">Precipitación, se mide en litros por metro cuadrado</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -240,7 +240,7 @@
         <rdfs:label xml:lang="es">Presión barométrica</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">La presión barométrica (también llamada presión atmosférica) es la fuerza por unidad de área que ejerce el aire sobre la superficie terrestre. Es un punto que coincide numéricamente con el peso de una columna estática de aire de sección recta unitaria que se extiende desde ese punto hasta el límite superior de la atmósfera</rdfs:comment>
+        <rdfs:comment xml:lang="es">La presión barométrica (también llamada presión atmosférica) es la fuerza por unidad de área que ejerce el aire sobre la superficie terrestre. Es un punto que coincide numéricamente con el peso de una columna estática de aire de sección recta unitaria que se extiende desde ese punto hasta el límite superior de la atmósfera. Se mide en milibares</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -252,7 +252,7 @@
         <rdfs:label xml:lang="es">Radiación solar</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Radiación solar</rdfs:comment>
+        <rdfs:comment xml:lang="es">Radiación solar. Se mide en vatios por metro cuadrado</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -264,7 +264,7 @@
         <rdfs:label xml:lang="es">Temperatura</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Temperatura, que se mide en celsius</rdfs:comment>
+        <rdfs:comment xml:lang="es">Temperatura, que se mide en grados celsius</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -291,6 +291,95 @@
         <rdfs:comment xml:lang="es">Velocidad del viento. Se mide en metros por segundo</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
+	
+	<!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeAzufre -->
+
+	 <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeAzufre">
+        <rdfs:label xml:lang="es">Dióxido de azufre</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">Dióxido de azufre, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeNitrogeno -->
+
+	 <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeNitrogeno">
+        <rdfs:label xml:lang="es">Monóxido de nitrógeno</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">Monóxido de nitrógeno, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeNitrogeno -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeNitrogeno">
+        <rdfs:label xml:lang="es">Dióxido de nitrógeno</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">Dióxido de nitrógeno, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#particulasEnSuspensionPM10 -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#particulasEnSuspensionPM10">
+        <rdfs:label xml:lang="es">Partículas en suspensión menor que PM 10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">Partículas en suspensión menor que PM10, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#tolueno">
+        <rdfs:label xml:lang="es">Tolueno</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de tolueno, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#benceno">
+        <rdfs:label xml:lang="es">Benceno</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de benceno, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#xileno">
+        <rdfs:label xml:lang="es">Xileno</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de xileno, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosTotales">
+        <rdfs:label xml:lang="es">Hidrocarburos totales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de hidrocarburos totales, se mide en miligramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano">
+        <rdfs:label xml:lang="es">Hidrocarburos no-metano</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de Hidrocarburos no-metano,  se mide en miligramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#particulasEnSuspensionPM25">
+        <rdfs:label xml:lang="es">Partículas en suspensión menor que PM 2,5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
+        <dcterms:issued rdf:datatype="&xsd;dateTime">2017-06-15</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de Partículas en suspensión menor que PM 2,5, se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+    </owl:Class>
+	
     <rdf:Description>
         <rdfs:label>HTML</rdfs:label>
     </rdf:Description>
