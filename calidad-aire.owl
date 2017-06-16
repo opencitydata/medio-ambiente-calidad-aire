@@ -156,7 +156,7 @@
         <rdfs:label xml:lang="es">Dióxido de carbono</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Dióxido de carbono, que se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:comment xml:lang="es">Dióxido de carbono, que se suele medir en microgramos por metro cúbico</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -168,7 +168,7 @@
         <rdfs:label xml:lang="es">Dirección del viento</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Dirección del viento. Se mide en grados</rdfs:comment>
+        <rdfs:comment xml:lang="es">Dirección del viento, que se suele medir en grados</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -180,7 +180,7 @@
         <rdfs:label xml:lang="es">Humedad relativa</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Humedad relativa, se mide en porcentaje</rdfs:comment>
+        <rdfs:comment xml:lang="es">Humedad relativa, que se suele medir en porcentaje</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -192,7 +192,7 @@
         <rdfs:label xml:lang="es">Monóxido de carbono</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Monóxido de carbono, que se mide en miligramos por metro cúbico</rdfs:comment>
+        <rdfs:comment xml:lang="es">Monóxido de carbono, que se suele medir en miligramos por metro cúbico</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -216,7 +216,7 @@
         <rdfs:label xml:lang="es">Ozono Quimioluminiscente</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Nivel de ozono quimioluminiscente, que se mide en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nivel de ozono quimioluminiscente, que se suele medir en microgramos por metro cúbico</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -240,7 +240,7 @@
         <rdfs:label xml:lang="es">Presión barométrica</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">La presión barométrica (también llamada presión atmosférica) es la fuerza por unidad de área que ejerce el aire sobre la superficie terrestre. Es un punto que coincide numéricamente con el peso de una columna estática de aire de sección recta unitaria que se extiende desde ese punto hasta el límite superior de la atmósfera. Se mide en milibares</rdfs:comment>
+        <rdfs:comment xml:lang="es">La presión barométrica (también llamada presión atmosférica) es la fuerza por unidad de área que ejerce el aire sobre la superficie terrestre. Es un punto que coincide numéricamente con el peso de una columna estática de aire de sección recta unitaria que se extiende desde ese punto hasta el límite superior de la atmósfera. Se suele medir en milibares</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -252,7 +252,7 @@
         <rdfs:label xml:lang="es">Radiación solar</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Radiación solar. Se mide en vatios por metro cuadrado</rdfs:comment>
+        <rdfs:comment xml:lang="es">Radiación solar, que se suele medir en vatios por metro cuadrado</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
@@ -264,7 +264,7 @@
         <rdfs:label xml:lang="es">Temperatura</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2016-02-25</dcterms:issued>
-        <rdfs:comment xml:lang="es">Temperatura, que se mide en grados celsius</rdfs:comment>
+        <rdfs:comment xml:lang="es">Temperatura, que se suele medir en grados celsius</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
     </owl:Class>
     
