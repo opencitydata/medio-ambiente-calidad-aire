@@ -1,0 +1,296 @@
+@prefix : <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
+
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> rdf:type owl:Ontology ;
+                                                                            owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/0.2> ;
+                                                                            owl:imports <http://purl.oclc.org/NET/ssnx/ssn> ;
+                                                                            <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> ;
+                                                                            <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"^^xsd:string ;
+                                                                            <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"^^xsd:string ;
+                                                                            <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
+                                                                            <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.html> ,
+                                                                                                                 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.owl> ;
+                                                                            <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                                                                            <http://purl.org/dc/terms/modified> "2017-10-14"^^xsd:dateTime ;
+                                                                            <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
+                                                                            rdfs:comment "Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SSN) con propiedades específicas para la representación de datos relacionados con la calidad del aire"@es ;
+                                                                            owl:versionInfo "Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se han añadido referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency "@es .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+rdfs:isDefinedBy rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#time
+xsd:time rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#benceno
+:benceno rdf:type owl:Class ;
+         rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+         <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+         rdfs:comment "La concentración de benceno, se suele medir en microgramos por metro cúbico"@es ;
+         rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+         rdfs:label "Benceno"@es ;
+         rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/20"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeAzufre
+:dioxidoDeAzufre rdf:type owl:Class ;
+                 rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                 <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+                 rdfs:comment "Dióxido de azufre, se suele medir en microgramos por metro cúbico"@es ;
+                 rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                 rdfs:label "Dióxido de azufre"@es ;
+                 rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeCarbono
+:dioxidoDeCarbono rdf:type owl:Class ;
+                  rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                  <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                  rdfs:comment "Dióxido de carbono, se suele medir en microgramos por metro cúbico"@es ;
+                  rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                  rdfs:label "Dióxido de carbono"@es ;
+                  rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/71"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeNitrogeno
+:dioxidoDeNitrogeno rdf:type owl:Class ;
+                    rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                    <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+                    rdfs:comment "Dióxido de nitrógeno, se suele medir en microgramos por metro cúbico"@es ;
+                    rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                    rdfs:label "Dióxido de nitrógeno"@es ;
+                    rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/8"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#direccionViento
+:direccionViento rdf:type owl:Class ;
+                 rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                 <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                 rdfs:comment "Dirección del viento, se suele medir en grados"@es ;
+                 rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                 rdfs:label "Dirección del viento"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano
+:hidrocarburosNoMetano rdf:type owl:Class ;
+                       rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                       <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+                       rdfs:comment "La concentración de Hidrocarburos no-metano, se suele medir en miligramos por metro cúbico"@es ;
+                       rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                       rdfs:label "Hidrocarburos no-metano"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosTotales
+:hidrocarburosTotales rdf:type owl:Class ;
+                      rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                      <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+                      rdfs:comment "La concentración de hidrocarburos totales, se suele medir en miligramos por metro cúbico"@es ;
+                      rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                      rdfs:label "Hidrocarburos totales"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#humedadRelativa
+:humedadRelativa rdf:type owl:Class ;
+                 rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                 <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                 rdfs:comment "Humedad relativa, se suele medir en porcentaje"@es ;
+                 rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                 rdfs:label "Humedad relativa"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeCarbono
+:monoxidoDeCarbono rdf:type owl:Class ;
+                   rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                   <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                   rdfs:comment "Monóxido de carbono, se suele medir en miligramos por metro cúbico"@es ;
+                   rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                   rdfs:label "Monóxido de carbono"@es ;
+                   rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/10"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeNitrogeno
+:monoxidoDeNitrogeno rdf:type owl:Class ;
+                     rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                     <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+                     rdfs:comment "Monóxido de nitrógeno, se suele medir en microgramos por metro cúbico"@es ;
+                     rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                     rdfs:label "Monóxido de nitrógeno"@es ;
+                     rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/38"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#oxidosDeNitrogeno
+:oxidosDeNitrogeno rdf:type owl:Class ;
+                   rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                   <http://purl.org/dc/terms/issued> "2017-06-26"^^xsd:dateTime ;
+                   rdfs:comment "Óxidos de nitrógeno, se suele medir en microgramos por metro cúbico"@es ;
+                   rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                   rdfs:label "Óxidos de nitrógeno"@es ;
+                   rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/9"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#ozono
+:ozono rdf:type owl:Class ;
+       rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+       <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+       rdfs:comment "Nivel de ozono, se suele medir en microgramos por metro cúbico"@es ;
+       rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+       rdfs:label "Ozono"@es ;
+       rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#ozonoQuimioluminiscente
+:ozonoQuimioluminiscente rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                         <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                         rdfs:comment "Nivel de ozono quimioluminiscente, se suele medir en microgramos por metro cúbico"@es ;
+                         rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                         rdfs:label "Ozono Quimioluminiscente"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#particulasEnSuspensionPM10
+:particulasEnSuspensionPM10 rdf:type owl:Class ;
+                            rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                            <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+                            rdfs:comment "Partículas en suspensión menor que PM10, se suele medir en microgramos por metro cúbico"@es ;
+                            rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                            rdfs:label "Partículas en suspensión menor que PM 10"@es ;
+                            rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#particulasEnSuspensionPM25
+:particulasEnSuspensionPM25 rdf:type owl:Class ;
+                            rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                            <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+                            rdfs:comment "La concentración de Partículas en suspensión menor que PM 2,5, se suele medir en microgramos por metro cúbico"@es ;
+                            rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                            rdfs:label "Partículas en suspensión menor que PM 2,5"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#precipitacion
+:precipitacion rdf:type owl:Class ;
+               rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+               <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+               rdfs:comment "Precipitación, se suele medir en litros por metro cuadrado"@es ;
+               rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+               rdfs:label "Precipitación"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#presionBarometrica
+:presionBarometrica rdf:type owl:Class ;
+                    rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                    <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                    rdfs:comment "La presión barométrica (también llamada presión atmosférica) es la fuerza por unidad de área que ejerce el aire sobre la superficie terrestre. Es un punto que coincide numéricamente con el peso de una columna estática de aire de sección recta unitaria que se extiende desde ese punto hasta el límite superior de la atmósfera. Se suele medir en milibares"@es ;
+                    rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                    rdfs:label "Presión barométrica"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#radiacionSolar
+:radiacionSolar rdf:type owl:Class ;
+                rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                rdfs:comment "Radiación solar, se suele medir en vatios por metro cuadrado"@es ;
+                rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                rdfs:label "Radiación solar"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#temperatura
+:temperatura rdf:type owl:Class ;
+             rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+             <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+             rdfs:comment "Temperatura, que se suele medir en grados celsius"@es ;
+             rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+             rdfs:label "Temperatura"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#temperaturaInterior
+:temperaturaInterior rdf:type owl:Class ;
+                     rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                     <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                     rdfs:comment "Temperatura interior, se suele medir en celsius"@es ;
+                     rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                     rdfs:label "Temperatura interior"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#tolueno
+:tolueno rdf:type owl:Class ;
+         rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+         <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+         rdfs:comment "La concentración de tolueno, se suele medir en microgramos por metro cúbico"@es ;
+         rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+         rdfs:label "Tolueno"@es ;
+         rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/21"^^xsd:string .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#velocidadViento
+:velocidadViento rdf:type owl:Class ;
+                 rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+                 <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:dateTime ;
+                 rdfs:comment "Velocidad del viento, se suele medir en metros por segundo"@es ;
+                 rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+                 rdfs:label "Velocidad del viento"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#xileno
+:xileno rdf:type owl:Class ;
+        rdfs:subClassOf <http://purl.oclc.org/NET/ssnx/ssn#Property> ;
+        <http://purl.org/dc/terms/issued> "2017-06-15"^^xsd:dateTime ;
+        rdfs:comment "La concentración de xileno, se suele medir en microgramos por metro cúbico"@es ;
+        rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+        rdfs:label "Xileno"@es ;
+        rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/78"^^xsd:string .
+
+
+[ rdfs:label "RDF"^^xsd:string
+] .
+
+[ rdfs:label "HTML"^^xsd:string
+ ] .
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
