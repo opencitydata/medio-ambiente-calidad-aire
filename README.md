@@ -5,3 +5,4 @@ La documentación actualizada, antes de realizar el despliegue en la URL anterio
 https://rawgit.com/opencitydata/medio-ambiente-calidad-aire/master/OnToology/calidad-aire.owl/documentation/index-en.html
 
 
+Este vocabulario está siendo utilizado en el contexto de la actuación sobre datos abiertos del proyecto "Plataforma de Gobierno Abierto, Colaborativa e Interoperable" (http://datos.gob.es/es/noticia/plataforma-de-gobierno-abierto-colaborativa-e-interoperable). Dentro de los objetivos específicos de este proyecto no se encuentra el desarrollo, actualización o validación de este vocabulario, aunque no se descarta que puedan realizarse cambios cuando los conjuntos de datos correspondientes tengan que ser expuestos por medio de la API de datos abiertos que se está desarrollando en el proyecto.
