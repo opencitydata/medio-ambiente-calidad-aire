@@ -8,9 +8,9 @@
 <!-- SCHEMA.ORG METADATA -->
 <script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire","name":"http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire", "headline":"Document describing the ontology http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire", "datePublished":"2019-01-26", "version":"Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA)", "author":[{"@type":"Person","name":"Hugo Lafuente (Localidata)"},{"@type":"Person","name":"Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)"}]}</script>
 
-<script src="resources/jquery.js"></script> 
-<script src="resources/marked.min.js"></script> 
-    <script> 
+<script src="resources/jquery.js"></script>
+<script src="resources/marked.min.js"></script>
+    <script>
 function loadHash() {
   jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
 	var hash = location.hash;
@@ -40,20 +40,20 @@ function loadTOC(){
 		}
 	  });
 	  t+='</ul>';
-	  $("#toc").html(t); 
+	  $("#toc").html(t);
 }
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-en.html");
+      $("#introduction").load("sections/introduction-en.html");
+      $("#overview").load("sections/overview-en.html");
+      $("#description").load("sections/description-en.html");
+      $("#references").load("sections/references-en.html");
+      $("#crossref").load("sections/crossref-en.html", null, loadHash);
     });
-    </script> 
-  </head> 
+    </script>
+  </head>
 
 <body>
 <div class="container">
@@ -66,7 +66,7 @@ function loadTOC(){
 <dt>This version:</dt>
 <dd><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0</a></dd>
 <dt>Revision:</dt>
-<dd>Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA)</dd>
+<dd>Ontology for the description of air quality data in a city. Version 0.2 added references to a thesaurus on air pollutants (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) published by the European Environment Agency. Version 1.0 has updated this ontology to the latest version of the W3C Semantic Sensor Network ontology (known as SOSA)</dd>
 <dt>Authors:</dt>
 <dd>Hugo Lafuente (Localidata)</dd><dd>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)</dd>
 
