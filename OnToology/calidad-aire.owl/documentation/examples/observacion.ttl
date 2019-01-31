@@ -1,6 +1,7 @@
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX esair: <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#>
 PREFIX dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/observacion/bd1d1338d82c68c9bc2c3b9e4bad1d5e> a sosa:Observation, esair:AirQualityObservation ;
     	sosa:hasResult <http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/observacion/bd1d1338d82c68c9bc2c3b9e4bad1d5e/observation-result> ;
