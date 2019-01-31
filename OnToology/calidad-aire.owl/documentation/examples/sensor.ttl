@@ -1,0 +1,19 @@
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX esair: <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
+
+<http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/estacion/1> a sosa:Platform, esair:AirQualityStation;
+    geosparql:hasGeometry <http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/estacion/1/geometry> ;
+    
+    esadm:municipio <https://datos.ign.es/recurso/btn100/municipio/28006>.
+    
+<http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/estacion/1/geometry> a geosparql:Point ;
+		geo:lat “43.1345”^^xsd:double ;
+		geo:long “-3.1233”^^xsd:double ;
+    geosparql:asWKT "POINT(-3.1233 43.1345)"^^geosparql:wktLiteral. 
+
+<http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/estacion/1/sensor/1> a sosa:Sensor;
+    sosa:isHostedBy <http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/estacion/1> ;
+    sosa:observes esair:temperaturaInterior.
