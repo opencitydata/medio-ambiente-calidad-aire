@@ -1,0 +1,9 @@
+<http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/observacion/bd1d1338d82c68c9bc2c3b9e4bad1d5e> a sosa:Observation ;
+    	sosa:hasResult <http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/observacion/bd1d1338d82c68c9bc2c3b9e4bad1d5e/observation-result> ;
+    	sosa:resultTime "2018-06-19T13:00:00"^^xsd:dateTime ;
+    	sosa:madeBySensor <http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/estacion/1/sensor/1> ;
+    	sosa:observedProperty esair:temperaturaInterior .
+	    
+<http://datos.alcobendas.org/recurso/medio-ambiente/calidad-aire/observacion/bd1d1338d82c68c9bc2c3b9e4bad1d5e/observation-result> a sosa:Result ;
+      dul:hasDataValue  "27.4"^^xsd:float ;
+    	dul:quality   	"Celsius degree" .
