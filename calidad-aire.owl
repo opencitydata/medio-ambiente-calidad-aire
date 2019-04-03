@@ -36,10 +36,10 @@
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)</dc:creator>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -47,34 +47,34 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.org/dc/terms/issued -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -82,22 +82,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#date -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#time -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -105,22 +105,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -128,7 +128,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation -->
@@ -160,7 +160,7 @@
         <rdfs:label xml:lang="en">Air Quality Observation</rdfs:label>
         <rdfs:label xml:lang="es">Observación de calidad del aire</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty -->
@@ -174,7 +174,7 @@
         <rdfs:label xml:lang="en">Air Quality Property</rdfs:label>
         <rdfs:label xml:lang="es">Propiedad de calidad del aire</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualitySensor -->
@@ -200,7 +200,7 @@
         <rdfs:label xml:lang="en">Air Quality Sensor</rdfs:label>
         <rdfs:label xml:lang="es">Sensor de calidad del aire</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityStation -->
@@ -214,10 +214,10 @@
         <rdfs:label xml:lang="en">Air Quality Station</rdfs:label>
         <rdfs:label xml:lang="es">Estación de medición de la calidad del aire</rdfs:label>
     </owl:Class>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -225,7 +225,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://dbpedia.org/resource/Air -->
@@ -234,18 +234,6 @@
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
     </owl:NamedIndividual>
     
-
-
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#EjemploAirQualityProperty -->
-
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#EjemploAirQualityProperty">
-        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty"/>
-        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">dfadsfasd</dcterms:issued>
-        <rdfs:comment xml:lang="es">asdfasdfasdf</rdfs:comment>
-        <rdfs:label xml:lang="es">dfadfadfa</rdfs:label>
-    </owl:NamedIndividual>
-    
-
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#benceno -->
 
@@ -257,7 +245,7 @@
         <rdfs:label xml:lang="es">Benceno</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/20</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeAzufre -->
@@ -270,7 +258,7 @@
         <rdfs:label xml:lang="es">Dióxido de azufre</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeCarbono -->
@@ -283,7 +271,7 @@
         <rdfs:label xml:lang="es">Dióxido de carbono</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/71</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#dioxidoDeNitrogeno -->
@@ -296,7 +284,7 @@
         <rdfs:label xml:lang="es">Dióxido de nitrógeno</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/8</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#direccionViento -->
@@ -308,7 +296,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Dirección del viento</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano -->
@@ -320,7 +308,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Hidrocarburos no-metano</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosTotales -->
@@ -332,7 +320,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Hidrocarburos totales</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#humedadRelativa -->
@@ -344,7 +332,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Humedad relativa</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeCarbono -->
@@ -357,7 +345,7 @@
         <rdfs:label xml:lang="es">Monóxido de carbono</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/10</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeNitrogeno -->
@@ -370,7 +358,7 @@
         <rdfs:label xml:lang="es">Monóxido de nitrógeno</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/38</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#oxidosDeNitrogeno -->
@@ -383,7 +371,7 @@
         <rdfs:label xml:lang="es">Óxidos de nitrógeno</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/9</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#ozono -->
@@ -396,7 +384,7 @@
         <rdfs:label xml:lang="es">Ozono</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#ozonoQuimioluminiscente -->
@@ -408,7 +396,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Ozono Quimioluminiscente</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#particulasEnSuspensionPM10 -->
@@ -421,7 +409,7 @@
         <rdfs:label xml:lang="es">Partículas en suspensión menor que PM 10</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#particulasEnSuspensionPM25 -->
@@ -433,7 +421,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Partículas en suspensión menor que PM 2,5</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#precipitacion -->
@@ -445,7 +433,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Precipitación</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#presionBarometrica -->
@@ -457,7 +445,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Presión barométrica</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#radiacionSolar -->
@@ -469,7 +457,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Radiación solar</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#temperatura -->
@@ -481,7 +469,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Temperatura</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#temperaturaInterior -->
@@ -493,7 +481,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Temperatura interior</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#tolueno -->
@@ -506,7 +494,7 @@
         <rdfs:label xml:lang="es">Tolueno</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/21</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#velocidadViento -->
@@ -518,7 +506,7 @@
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
         <rdfs:label xml:lang="es">Velocidad del viento</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#xileno -->
@@ -542,4 +530,3 @@
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-
