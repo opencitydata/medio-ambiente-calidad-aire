@@ -7,7 +7,7 @@
 @base <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
 
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> rdf:type owl:Ontology ;
-                                                                            owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0> ;
+                                                                            owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0.1> ;
                                                                             owl:imports <http://www.w3.org/ns/sosa/> ;
                                                                             <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> ;
                                                                             <http://purl.org/dc/elements/1.1/creator> "Hugo Lafuente (Localidata)" ,
@@ -17,10 +17,10 @@
                                                                             <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.html> ,
                                                                                                                  <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.owl> ;
                                                                             <http://purl.org/dc/terms/issued> "2016-02-25"^^xsd:date ;
-                                                                            <http://purl.org/dc/terms/modified> "2019-01-26"^^xsd:date ;
+                                                                            <http://purl.org/dc/terms/modified> "2019-04-03"^^xsd:date ;
                                                                             <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
                                                                             rdfs:comment "Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SOSA) con propiedades específicas para la representación de datos relacionados con la calidad del aire"@es ;
-                                                                            owl:versionInfo "Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA)"@es .
+                                                                            owl:versionInfo "Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA). En la versión 1.0.1 se han añadido tres nuevas propiedades que pueden ser medidas"@es .
 
 #################################################################
 #    Annotation properties
@@ -192,6 +192,16 @@ xsd:time rdf:type rdfs:Datatype .
                  rdfs:label "Dirección del viento"@es .
 
 
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno
+:etilbenceno rdf:type owl:NamedIndividual ,
+                      :AirQualityProperty ;
+             <http://purl.org/dc/terms/issued> "2019-03-04"^^xsd:date ;
+             rdfs:comment "La concentración de etilbenceno, se suele medir en microgramos por metro cúbico"@es ;
+             rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+             rdfs:label "Etilbenceno"@es ;
+             rdfs:seeAlso "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/431" .
+
+
 ###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano
 :hidrocarburosNoMetano rdf:type owl:NamedIndividual ,
                                 :AirQualityProperty ;
@@ -219,6 +229,16 @@ xsd:time rdf:type rdfs:Datatype .
                  rdfs:label "Humedad relativa"@es .
 
 
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano
+:metano rdf:type owl:NamedIndividual ,
+                 :AirQualityProperty ;
+        <http://purl.org/dc/terms/issued> "2019-03-04"^^xsd:date ;
+        rdfs:comment "La concentración de metano, se suele medir en microgramos por metro cúbico"@es ;
+        rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+        rdfs:label "Metano"@es ;
+        rdfs:seeAlso "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/41" .
+
+
 ###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeCarbono
 :monoxidoDeCarbono rdf:type owl:NamedIndividual ,
                             :AirQualityProperty ;
@@ -237,6 +257,16 @@ xsd:time rdf:type rdfs:Datatype .
                      rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
                      rdfs:label "Monóxido de nitrógeno"@es ;
                      rdfs:seeAlso "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/38" .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano
+:n-hexano rdf:type owl:NamedIndividual ,
+                   :AirQualityProperty ;
+          <http://purl.org/dc/terms/issued> "2019-03-04"^^xsd:date ;
+          rdfs:comment "La concentración de n-hexano, se suele medir en microgramos por metro cúbico"@es ;
+          rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> ;
+          rdfs:label "N-hexano"@es ;
+          rdfs:seeAlso "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/443" .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#oxidosDeNitrogeno
