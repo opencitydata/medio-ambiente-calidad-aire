@@ -143,14 +143,6 @@ xsd:time rdf:type rdfs:Datatype .
                                            <http://www.w3.org/ns/sosa/FeatureOfInterest> .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#EjemploAirQualityProperty
-:EjemploAirQualityProperty rdf:type owl:NamedIndividual ,
-                                    :AirQualityProperty ;
-                           <http://purl.org/dc/terms/issued> "dfadsfasd"^^xsd:date ;
-                           rdfs:comment "asdfasdfasdf"@es ;
-                           rdfs:label "dfadfadfa"@es .
-
-
 ###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#benceno
 :benceno rdf:type owl:NamedIndividual ,
                   :AirQualityProperty ;

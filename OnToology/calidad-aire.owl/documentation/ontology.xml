@@ -247,18 +247,6 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#EjemploAirQualityProperty -->
-
-
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#EjemploAirQualityProperty">
-        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">dfadsfasd</terms:issued>
-        <rdfs:comment xml:lang="es">asdfasdfasdf</rdfs:comment>
-        <rdfs:label xml:lang="es">dfadfadfa</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#benceno -->
 
 
