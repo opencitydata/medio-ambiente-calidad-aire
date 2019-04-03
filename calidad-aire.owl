@@ -21,7 +21,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:sosa="http://www.w3.org/ns/sosa/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire">
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0"/>
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0.1"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/sosa/"/>
         <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.html"/>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#"/>
@@ -30,9 +30,9 @@
         <dc:creator>Hugo Lafuente (Localidata)</dc:creator>
         <dc:identifier>http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire</dc:identifier>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-02-25</dcterms:issued>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-26</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-03</dcterms:modified>
         <rdfs:comment xml:lang="es">Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SOSA) con propiedades específicas para la representación de datos relacionados con la calidad del aire</rdfs:comment>
-        <owl:versionInfo xml:lang="es">Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA)</owl:versionInfo>
+        <owl:versionInfo xml:lang="es">Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA). En la versión 1.0.1 se han añadido tres nuevas propiedades que pueden ser medidas</owl:versionInfo>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)</dc:creator>
     </owl:Ontology>
@@ -519,6 +519,44 @@
         <rdfs:label xml:lang="es">Xileno</rdfs:label>
         <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/78</rdfs:seeAlso>
     </owl:NamedIndividual>
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno -->
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-04</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de etilbenceno, se suele medir en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+        <rdfs:label xml:lang="es">Etilbenceno</rdfs:label>
+        <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/431</rdfs:seeAlso>
+    </owl:NamedIndividual>
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano -->
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-04</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de metano, se suele medir en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+        <rdfs:label xml:lang="es">Metano</rdfs:label>
+        <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/41</rdfs:seeAlso>
+    </owl:NamedIndividual>
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano -->
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-04</dcterms:issued>
+        <rdfs:comment xml:lang="es">La concentración de n-hexano, se suele medir en microgramos por metro cúbico</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"/>
+        <rdfs:label xml:lang="es">N-hexano</rdfs:label>
+        <rdfs:seeAlso>http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/443</rdfs:seeAlso>
+    </owl:NamedIndividual>
+
+
     <rdf:Description>
         <rdfs:label>RDF</rdfs:label>
     </rdf:Description>
