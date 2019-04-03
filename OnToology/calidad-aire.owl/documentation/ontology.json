@@ -93,7 +93,7 @@
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2019-01-26"
+    "@value" : "2019-04-03"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#"
@@ -106,11 +106,11 @@
     "@id" : "http://www.w3.org/ns/sosa/"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "es",
-    "@value" : "Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA)"
+    "@value" : "Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA). En la versión 1.0.1 se han añadido tres nuevas propiedades que pueden ser medidas"
   } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation",
@@ -333,6 +333,27 @@
     "@value" : "Dirección del viento"
   } ]
 }, {
+  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty" ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-03-04"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La concentración de etilbenceno, se suele medir en microgramos por metro cúbico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Etilbenceno"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/431"
+  } ]
+}, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty" ],
   "http://purl.org/dc/terms/issued" : [ {
@@ -387,6 +408,27 @@
     "@value" : "Humedad relativa"
   } ]
 }, {
+  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty" ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-03-04"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La concentración de metano, se suele medir en microgramos por metro cúbico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Metano"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/41"
+  } ]
+}, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeCarbono",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty" ],
   "http://purl.org/dc/terms/issued" : [ {
@@ -427,6 +469,27 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@value" : "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/38"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty" ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-03-04"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La concentración de n-hexano, se suele medir en microgramos por metro cúbico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "N-hexano"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/443"
   } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#oxidosDeNitrogeno",

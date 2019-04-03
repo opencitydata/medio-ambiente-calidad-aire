@@ -1,5 +1,5 @@
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/1.0.1> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/sosa/> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://purl.org/dc/elements/1.1/creator> "Hugo Lafuente (Localidata)" .
@@ -9,10 +9,10 @@
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.html> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire.owl> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://purl.org/dc/terms/issued> "2016-02-25"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://purl.org/dc/terms/modified> "2019-01-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://purl.org/dc/terms/modified> "2019-04-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://www.w3.org/2000/01/rdf-schema#comment> "Este vocabulario extiende la W3C Semantic Sensor Network Ontology (SOSA) con propiedades específicas para la representación de datos relacionados con la calidad del aire"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://www.w3.org/2002/07/owl#versionInfo> "Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA)"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> <http://www.w3.org/2002/07/owl#versionInfo> "Ontología para describir datos de calidad del aire en una ciudad. En la versión 0.2 se añdieron referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency. En la versión 1.0 se ha actualizado la ontología a la última versión de la W3C Semantic Sensor Network Ontology (SOSA). En la versión 1.0.1 se han añadido tres nuevas propiedades que pueden ser medidas"@es .
 # 
 # 
 # #################################################################
@@ -190,6 +190,15 @@ _:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.linkeddata.
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#direccionViento> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#direccionViento> <http://www.w3.org/2000/01/rdf-schema#label> "Dirección del viento"@es .
 # 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno> <http://purl.org/dc/terms/issued> "2019-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno> <http://www.w3.org/2000/01/rdf-schema#comment> "La concentración de etilbenceno, se suele medir en microgramos por metro cúbico"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno> <http://www.w3.org/2000/01/rdf-schema#label> "Etilbenceno"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#etilbenceno> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/431" .
+# 
 # http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#hidrocarburosNoMetano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty> .
@@ -214,6 +223,15 @@ _:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.linkeddata.
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#humedadRelativa> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#humedadRelativa> <http://www.w3.org/2000/01/rdf-schema#label> "Humedad relativa"@es .
 # 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano> <http://purl.org/dc/terms/issued> "2019-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano> <http://www.w3.org/2000/01/rdf-schema#comment> "La concentración de metano, se suele medir en microgramos por metro cúbico"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano> <http://www.w3.org/2000/01/rdf-schema#label> "Metano"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#metano> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/41" .
+# 
 # http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeCarbono
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeCarbono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeCarbono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty> .
@@ -231,6 +249,15 @@ _:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://vocab.linkeddata.
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeNitrogeno> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeNitrogeno> <http://www.w3.org/2000/01/rdf-schema#label> "Monóxido de nitrógeno"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#monoxidoDeNitrogeno> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/38" .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano> <http://purl.org/dc/terms/issued> "2019-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano> <http://www.w3.org/2000/01/rdf-schema#comment> "La concentración de n-hexano, se suele medir en microgramos por metro cúbico"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire> .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano> <http://www.w3.org/2000/01/rdf-schema#label> "N-hexano"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#n-hexano> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dd.eionet.europa.eu/vocabularyconcept/aq/pollutant/443" .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#oxidosDeNitrogeno
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#oxidosDeNitrogeno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
