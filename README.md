@@ -4,6 +4,7 @@ Este repositorio contiene el material relacionado con el vocabulario para la des
 http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire
 
 ### Lista de cambios recientes:
+* [03/04/2019] v1.0.1 Eliminación de un named individual que era incorrecto e innecesario (EjemploAirQualityProperty)
 * [26/01/2019] v1.0 Actualización del vocabulario para considerar la última versión - recomendación - de la W3C Semantic Sensor Network Ontology (SOSA)
 * [14/10/2017] v0.2 Introducción de referencias a las referencias al tesauro de contaminantes (http://dd.eionet.europa.eu/vocabulary/aq/pollutant/) publicado por la European Environment Agency
 * [25/02/2016] v0.1 Versión inicial del vocabulario, extendiendo la versión más actualizada de la W3C Semantic Sensor Network Ontology (SSN)
