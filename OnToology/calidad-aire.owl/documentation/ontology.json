@@ -231,21 +231,6 @@
     "@id" : "http://www.w3.org/ns/sosa/Platform"
   } ]
 }, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#EjemploAirQualityProperty",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty" ],
-  "http://purl.org/dc/terms/issued" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "dfadsfasd"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "asdfasdfasdf"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "dfadfadfa"
-  } ]
-}, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#benceno",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty" ],
   "http://purl.org/dc/terms/issued" : [ {
